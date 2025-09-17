@@ -1,0 +1,32 @@
+PRINCIPIOS SOLID
+    S)SRP} Principio de responsabilidad único
+    O)OCP} Principio de abierto/cerrado
+    L)LSP} Principio de sustitución de LISKOV
+    I)ISP} Principio de segregación de interfaz
+    D)DIP} Principio de inversión de dependencias
+
+SI EL CODIGO SE VA A SEGUIR EXPANDIENDO Y OTROS PROGRAMADORES VAN A TRABAJAR EN EL
+ENTONCES DEBE CUMPLIR CON LOS SIGUIENTES PARAMETROS
+
+1. LA MANTENIBILIDAD: El software debe ser fácil de mantener y modificar en el tiempo
+    si algo se debe modificar debe ser facil de hacer sin afectar otras partes del programa
+        a)Buena organizacion
+        b)Estructura clara
+        c)Buenas practicas
+
+3. LA REUSABILIDAD: El software debe estar diseñado de tal formma que todo
+    el componente sea reutilizable, independientes capaces de ser reutilizados en otros proyectos
+    sin necesidad de agregar cosas extras
+    ]Modulos
+    ]Clases
+    ]Funciones
+
+4. LA LEGIBILIDAD: El codigo debe ser facil y claro de entender para cualquier desarrollador que 
+    quiera leerlo
+        a)Nombres de variables intuitivos, con significado
+        b)Comentar cuando sea necesario
+        c)Seguir convenciones de estilo
+        b)Estructurar todo correctamente
+
+5. LA EXTENSIBILIDAD: El software debe permitir la posibilidad de extenderse
+    sin necesidad de afectar su Funcionamiento, sin afectar el codigo existente 
